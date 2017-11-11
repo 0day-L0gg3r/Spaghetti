@@ -77,8 +77,8 @@ class Spaghetti(object):
 			if urls==[]:urls.append(self.url)
 		# scan options
 		if self.scan == '0':
-			self.ma.bruteforce(
-				agent,proxy,redir,time,self.url,cookie)
+			#self.ma.bruteforce(
+				#agent,proxy,redir,time,self.url,cookie)
 			self.ma.disc(
 				agent,proxy,redir,time,self.url,cookie)
 			self.ma.attacks(
